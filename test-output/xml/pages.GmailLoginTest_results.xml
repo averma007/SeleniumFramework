@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testLogin"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="21.303">
+  <properties />
+  
+  
+            <testcase name="testGmailLogin" time="10.660" classname="pages.GmailLoginTest" />
+                <testcase name="testGmailLogin" time="10.643" classname="pages.GmailLoginTest" />
+      
+</testsuite>

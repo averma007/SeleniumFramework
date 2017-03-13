@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="testLogin(failed)">
+    <classes>
+      <class name="pages.GmailLoginTest">
+        <methods>
+          <include name="testGmailLogin" invocation-numbers="0 1"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- pages.GmailLoginTest -->
+    </classes>
+  </test> <!-- testLogin(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
